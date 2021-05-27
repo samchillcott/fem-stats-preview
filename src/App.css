@@ -1,0 +1,11 @@
+* {
+   Outline: 1px solid red;
+   box-sizing: border-box;
+   margin: 0;
+}
+
+.App {
+  background-color: black;
+  height: 100vh;
+  color: white;
+}
