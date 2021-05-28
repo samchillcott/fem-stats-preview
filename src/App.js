@@ -5,20 +5,30 @@ function App() {
   return (
     <div className="App">
       <div className="card">
+        <div className="image-wrapper" />
         <div className="text-wrapper">
           <div className="top-text">
-            <h2>Get insights that help your business grow</h2>
+            <h1>Get insights that help your business grow</h1>
             <p>
-              Discover the benefits of data analytics and make better decisions regarding revenue, customer experience, and overall efficiency.
+              Discover the benefits of data analytics and make better decisions regarding revenue,
+              customer experience, and overall efficiency.
             </p>
           </div>
           <div className="bottom-text">
-            <div>10k+ companies</div>
-            <div>314 templates</div>
-            <div>12m+ queries</div>
+            <div className="col">
+              <h3>10k+</h3>
+              <small>companies</small>
+            </div>
+            <div className="col">
+              <h3>314</h3>
+              <small>templates</small>
+            </div>
+            <div className="col">
+              <h3>12m+</h3>
+              <small>queries</small>
+            </div>
           </div>
         </div>
-        <div className="image-wrapper">image should be here</div>
       </div>
     </div>
   );
