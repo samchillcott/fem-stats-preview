@@ -23,15 +23,15 @@ function App() {
           </div>
           <div className="bottom-text">
             <div className="col">
-              <h1>10k+</h1>
+              <h2>10k+</h2>
               <small>COMPANIES</small>
             </div>
             <div className="col">
-              <h1>314</h1>
+              <h2>314</h2>
               <small>TEMPLATES</small>
             </div>
             <div className="col">
-              <h2>12m+</h2>
+              <h2>12M+</h2>
               <small>QUERIES</small>
             </div>
           </div>
