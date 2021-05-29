@@ -72,7 +72,7 @@ body {
   flex: 1;
   padding: 15px;
   /* padding: 0 30px; */
-  background-color: lightblue;
+  /* background-color: lightblue; */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -126,7 +126,7 @@ body {
   letter-spacing: 1px
 }
 
-@media (min-width: 564px) {
+@media (min-width: 990px) {
   .card {
     flex-direction: row;
     width: 70vw;
@@ -141,19 +141,29 @@ body {
   .image-wrapper {
     flex: 1;
     order: 2;
-      border-radius: 0px 8px 8px 0px;
-
+    border-radius: 0px 8px 8px 0px;
   }
   .image-wrapper::before {
-  background-image: url(./assets/images/image-header-desktop.jpg);
+    background-image: url(./assets/images/image-header-desktop.jpg);
     border-radius: 0px 8px 8px 0px;
-
   }
   .top-text {
-  flex: 2;
+    flex: 2;
+    /* padding: 30px; */
   }
+  .top-text h1 {
+  font-size: 2.5rem;
+}
+
+.top-text p {
+  font-size: 18px;
+  line-height: 1.6;
+}
   .bottom-text {
   flex-direction: row;
   flex: 1;
+  }
+  .col {
+    text-align: left;
   }
 }
