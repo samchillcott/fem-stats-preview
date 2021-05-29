@@ -72,7 +72,7 @@ body {
   flex: 1;
   padding: 15px;
   /* padding: 0 30px; */
-  /* background-color: lightblue; */
+  background-color: lightblue;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -100,7 +100,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  padding: 15px
+  padding: 15px;
 }
 
 .col {
@@ -135,9 +135,25 @@ body {
   .text-wrapper {
     flex: 1;
     order: 1;
+    text-align: left;
+    display: flex;
   }
   .image-wrapper {
     flex: 1;
     order: 2;
+      border-radius: 0px 8px 8px 0px;
+
+  }
+  .image-wrapper::before {
+  background-image: url(./assets/images/image-header-desktop.jpg);
+    border-radius: 0px 8px 8px 0px;
+
+  }
+  .top-text {
+  flex: 2;
+  }
+  .bottom-text {
+  flex-direction: row;
+  flex: 1;
   }
 }
