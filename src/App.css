@@ -146,6 +146,8 @@ body {
   .image-wrapper::before {
     background-image: url(./assets/images/image-header-desktop.jpg);
     border-radius: 0px 8px 8px 0px;
+    background-size: cover;
+    background-position: 50% 75%;
   }
   .top-text {
     flex: 2;
